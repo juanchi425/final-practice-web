@@ -23,7 +23,7 @@ Feature: El usuario añade un producto al carrito y realiza el pedido
       | Nombre | Apellido | Nombre Empresa | email       | telefono | pais      | direccion | Dpto | Localidad  | Cuidad     | Codigo Postal | Tipo de Pago |
       | Juan   | Martinez | eNova          | juan@22.com | 3939302  | Argentina | rioja 232 | 2    | Corrientes | Corrientes | 3400          | CHEQUE       |
 
-  @Prueba
+
   Scenario Outline: El usuario añade un producto y se verifica que la tasa de impuesto para la india sea del 2% y para el extranjero 5%
     And   El usuario agrega el libro de Android Quick Start Guide al carrito
     And   Se verifica que el precio  se haya añadido al elemento del header

@@ -18,6 +18,7 @@ public class HomePageSteps extends PageSteps {
     }
     @And("El usuario clikea en el boton Home")
     public void elUsuarioClikeaEnElBotonHome() {
+        clickHome();
     }
     @And("Se verifica que la pagina de la Home tenga tres productos")
     public void seVerificaQueLaPaginaDeLaHomeTengaTresProductos() {

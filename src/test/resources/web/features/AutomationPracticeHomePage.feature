@@ -4,7 +4,7 @@ Feature: El usuario añade un producto al carrito,completa el formulario correct
     Given El usuario se encuentra en la web Automation Practice
     When  El usuario clickea el boton Shop de la home
 
-
+  @Prueba
   Scenario Outline: El usuario añade un producto al carrito y completa el formulario con sus datos
     And   El usuario clikea en el boton Home
     And   Se verifica que la pagina de la Home tenga tres productos

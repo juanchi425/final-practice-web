@@ -20,6 +20,11 @@ public class HomePageService extends ActionManager {
         click(BTN_SHOP_ID);
 
     }
+    public static void clickHome(){
+        waitVisibility(BTN_HOME_XPATH);
+        click(BTN_HOME_XPATH);
+
+    }
 
     public static void verificaPaginaDeCompra(){
         waitVisibility(TEXT_SELENIUM_RUBY);
